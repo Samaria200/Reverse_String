@@ -1,4 +1,5 @@
-﻿string requiredStr, reversedString;
+﻿//code to reverse string
+string requiredStr, reversedString;
 requiredStr = "SAMARIA";
 reversedString = "";
 Console.WriteLine("Value of given String is: {0}", requiredStr);
@@ -11,3 +12,4 @@ while (a >= 0)
 }
 Console.WriteLine("Reversed string is: {0}", reversedString);
 Console.ReadLine();
+//reversed a string
