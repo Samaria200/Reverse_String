@@ -8,7 +8,7 @@ a = requiredStr.Length - 1;
 while (a >= 0)
 {
     reversedString = reversedString + requiredStr[a];
-    a--;
+    a--;//comment
 }
 Console.WriteLine("Reversed string is: {0}", reversedString);
 Console.ReadLine();
