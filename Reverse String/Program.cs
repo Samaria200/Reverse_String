@@ -3,13 +3,12 @@ string requiredStr, reversedString;
 requiredStr = "SAMARIA";
 reversedString = "";
 Console.WriteLine("Value of given String is: {0}", requiredStr);
-int a;
-a = requiredStr.Length - 1;
-while (a >= 0)
+int aValue;
+ aValue= requiredStr.Length - 1;
+while (aValue >= 0)
 {
-    reversedString = reversedString + requiredStr[a];
-    a--;//comment
+    reversedString = reversedString + requiredStr[aValue];
+    aValue--;
 }
 Console.WriteLine("Reversed string is: {0}", reversedString);
 Console.ReadLine();
-//reversed a string
